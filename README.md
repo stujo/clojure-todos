@@ -1,36 +1,26 @@
-# todo
+# todo...
 
-FIXME: description
-
-## Installation
-
-Download from http://example.com/FIXME.
+Playing around with clojure
 
 ## Usage
 
-FIXME: explanation
+    $ lein run 1 2 3 4 5
 
-    $ java -jar todo-0.1.0-standalone.jar [args]
+Numbers are summed everything else is ignored
 
-## Options
+## Testing
 
-FIXME: listing of options this app accepts.
+    $ lein test
 
 ## Examples
 
-...
+    $ lein run 1 2 3 4 5
+    Total of args =  15
 
-### Bugs
+    $ lein run 1 word 6
+    Total of args =  7
 
-...
 
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2016 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+## Links
+* [clojure.core/ns](https://clojuredocs.org/clojure.core/ns)
+* [clojure.core/apply](https://clojuredocs.org/clojure.core/apply)

@@ -1,8 +1,20 @@
-#Links
+Clojure Cheat Sheet - Exploring Clojure
+--------------------------
+
+These are my notes playing around with Clojure and it's syntax for the first time
+
+#Useful Links
 * [Source Code](https://github.com/clojure/clojure)
 * [Docs](http://clojure.org/)
 * ``$brew install leiningen`` - [http://leiningen.org/](http://leiningen.org/)
 * Looks like [LISP](https://en.wikipedia.org/wiki/Lisp_(programming_language))!
+* [http://clojure.org/api/cheatsheet](http://clojure.org/api/cheatsheet)
+
+# DataTypes
+  * [Lists](./datatypes/lists.md)
+  * [Vectors](./datatypes/vectors.md)
+  * [Sets](./datatypes/sets.md)
+  * [Maps](./datatypes/maps.md)
 
 #Single and Double Quotes
 Why is this false?
@@ -54,6 +66,23 @@ Let's take a look [http://www.braveclojure.com/organization/](http://www.bravecl
     => 5
 
 * What is ``clojure.lang.Cons``?
+
+Is this a ``symbol`` or just some kind of text?
+
+Looks like ``clojure.lang.Symbol`` is something different but similar...
+
+    todo.core=> (symbol "clojure.core" "foo")
+    clojure.core/foo
+
+    todo.core=> (eval (symbol "clojure.core" "foo"))
+    CompilerException java.lang.RuntimeException: No such var: clojure.core/foo,     compiling:(/private/var/folders/83/cx_mytx15ks9dgdhbj4kxf9c0000gn/T/form-init4602003227947088863.clj:1:1) 
+
+    todo.core=> (type (symbol "clojure.core" "foo"))
+    clojure.lang.Symbol
+
+    todo.core=> (eval  (symbol "clojure.core" "foo"))
+    CompilerException java.lang.RuntimeException: No such var: clojure.core/foo, compiling:(/private/var/folders/83/cx_mytx15ks9dgdhbj4kxf9c0000gn/T/form-init4602003227947088863.clj:1:1) 
+
 
 
 #Namespacing

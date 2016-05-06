@@ -20,6 +20,9 @@ These are my notes playing around with Clojure and it's syntax for the first tim
   * [Loops](./flow/loops.md)
   * [Conditionals](./flow/conditionals.md)
 
+# Scoping?
+  * [``let``](http://clojuredocs.org/clojure.core/let)
+
 #Single and Double Quotes
 Why is this false?
 

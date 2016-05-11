@@ -35,12 +35,24 @@ This is because it's trying to evaluate ``2`` as a function, we have to quote th
 ```clojure
 user=> (cons 1 '(2 3 4 5 6))
 ;; => (1 2 3 4 5 6)
-todo.core=> (cons 1 (list 2 3 4 5 6))
+```
+
+```clojure
+user=> (cons 1 (list 2 3 4 5 6))
 ;; => (1 2 3 4 5 6)
+```
+
+```clojure
 user=> (first '(1 2 3))
 ;; => 1
+```
+
+```clojure
 user=> (rest '(1 2 3))
 ;; => (2 3)
+```
+
+```clojure
 user=> (last '(1 2 3))
 ;; => 3
 ```

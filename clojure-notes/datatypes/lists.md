@@ -30,12 +30,19 @@ ClassCastException java.lang.Long cannot be cast to clojure.lang.IFn  todo.core/
 ```
 This is because it's trying to evaluate ``2`` as a function, we have to quote the list literal or build it 
 
-```clojure
-todo.core=> (cons 1 '(2 3 4 5 6))
-(1 2 3 4 5 6)
-todo.core=> (cons 1 (list 2 3 4 5 6))
-(1 2 3 4 5 6)
-```
+# Helpful Functions
 
+```clojure
+user=> (cons 1 '(2 3 4 5 6))
+;; => (1 2 3 4 5 6)
+todo.core=> (cons 1 (list 2 3 4 5 6))
+;; => (1 2 3 4 5 6)
+user=> (first '(1 2 3))
+;; => 1
+user=> (rest '(1 2 3))
+;; => (2 3)
+user=> (last '(1 2 3))
+;; => 3
+```
 
 

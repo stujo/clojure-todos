@@ -11,6 +11,11 @@ These are my notes playing around with Clojure and it's syntax for the first tim
 * [http://clojure.org/api/cheatsheet](http://clojure.org/api/cheatsheet)
 * [Living Clojure Book](https://books.google.com/books/about/Living_Clojure.html?id=SoodCAAAQBAJ&printsec=frontcover&source=kp_read_button&hl=en#v=onepage&q&f=false)
 
+# Syntax
+  * Commas are treated as whitespace
+  * ``()`` everything is in matching parens
+  * ``(function 1 2)`` the first term is expected to be a function
+
 # DataTypes
   * [Lists](./datatypes/lists.md)
   * [Vectors](./datatypes/vectors.md)

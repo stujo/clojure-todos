@@ -9,6 +9,7 @@ These are my notes playing around with Clojure and it's syntax for the first tim
 * ``$brew install leiningen`` - [http://leiningen.org/](http://leiningen.org/)
 * Looks like [LISP](https://en.wikipedia.org/wiki/Lisp_(programming_language))!
 * [http://clojure.org/api/cheatsheet](http://clojure.org/api/cheatsheet)
+* [Living Clojure Book](https://books.google.com/books/about/Living_Clojure.html?id=SoodCAAAQBAJ&printsec=frontcover&source=kp_read_button&hl=en#v=onepage&q&f=false)
 
 # DataTypes
   * [Lists](./datatypes/lists.md)

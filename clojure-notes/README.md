@@ -15,6 +15,8 @@ These are my notes playing around with Clojure and it's syntax for the first tim
   * [Vectors](./datatypes/vectors.md)
   * [Sets](./datatypes/sets.md)
   * [Maps](./datatypes/maps.md)
+  * Keywords ``:someword``
+  * Chars ``\s`` is the letter ``s``
 
 # Control Flow
   * [Loops](./flow/loops.md)

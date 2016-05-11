@@ -5,11 +5,12 @@
 Thinking...
 > Implemented as a linked list, so performant in situations where the items are added and removed from the sequence
 
+* Created with a quote
 ```clojure
-(1 2 3)
+'(1 2 3)
 => (1 2 3)
 ```
-
+* Or the list function
 ```clojure
 (list 1 2 3)
 => (1 2 3)
